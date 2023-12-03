@@ -16,9 +16,9 @@ Atividade para implementar um perceptron capaz de ser treinado para reproduzir o
 - `predict`: Realiza a predição do perceptron com base nas entradas dadas.
 
 #### Implementação de Portas Lógicas:
-- São criadas quatro classes (`ANDGate`, `ORGate`, `NANDGate`, `XORGate`) para representar as portas lógicas.
+- São criadas quatro classes (`AND`, `ORG`, `NAND`, `XOR`) para representar as portas lógicas.
 - Cada classe usa um perceptron com pesos e limiares específicos para implementar a função da porta lógica correspondente.
-- `XORGate` combina perceptrons de AND, OR e NAND para implementar a função XOR.
+- `XOR` combina perceptrons de AND, OR e NAND para implementar a função XOR.
 
 ### Uai, por que o XOR não funcionou?
 O resultado que encontramos exemplifica as restrições de um perceptron simple. A porta XOR representa um dilema não separável linearmente, indicando que não é viável estabelecer uma única linha reta que consiga delimitar de maneira precisa as saídas 0 e 1. 
